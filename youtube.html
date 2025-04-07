@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/general.css">
     <title>YouTube</title>
   </head>
   <body>
     <header>
       <div class="left">
-        <img src="images/icons/hamburger-menu.svg">
-        <img src="images/icons/youtube-logo.svg">
+        <img class="hamburger" src="images/icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="images/icons/youtube-logo.svg">
       </div>
+
       <div class="middle">
-        <input type="search" placeholder="Search">
-        <div>
-          <img src="images/icons/search.svg">
-        </div>
+        <input type="text" placeholder="Search">
+        <button>
+          <img class="search-icon" src="images/icons/search.svg">
+        </button>
+        <button class="voice-button">
+          <img src="images/icons/voice-search-icon.svg">
+        </button>
       </div>
+
       <div class="right">
         <img src="images/icons/upload.svg">
         <img src="images/icons/youtube-apps.svg">
         <img src="images/icons/notifications.svg">
-        <img src="images/channel-pictures/my-channel.jpeg">
+        <img class="profile" src="images/channel-pictures/my-channel.jpeg">
       </div>
     </header>
 
