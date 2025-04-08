@@ -12,9 +12,12 @@ header {
   left: 0;
   top: 0;
   background-color: white;
+  border-bottom: 1PX solid rgb(177, 177, 177);
+  z-index: 100;
 }
 
-img {
+.icons,
+nav img {
   height: 24px;
 }
 

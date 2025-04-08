@@ -8,6 +8,7 @@ nav {
   flex-direction: column;
   overflow: auto;
   scrollbar-width: none;
+  z-index: 200;
 }
 
 nav div {

@@ -1,0 +1,65 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 22px;
+  row-gap: 8px;
+}
+
+.holder {
+}
+
+.thumbnail-div {
+  position: relative;
+}
+
+.thumbnail {
+  cursor: pointer;
+  width: 100%;
+  object-fit: contain;
+}
+
+.video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 4px 2px;
+  font-size: 13px;
+  border-radius: 2px;
+  right: 4px;
+  bottom: 9px;
+}
+
+.profile-pic {
+  width: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+main p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.video-title {
+  width: auto;
+  font-weight: bolder;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.video-details {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  width: 276px;
+  margin-top: 11px;
+}
+
+.others {
+  font-size: 13px;
+  color: rgb(97, 97, 97);
+  margin: 4PX;
+}
+
+.f {
+  margin-bottom: 2px;
+}
