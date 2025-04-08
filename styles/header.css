@@ -11,6 +11,7 @@ header {
   right: 0;
   left: 0;
   top: 0;
+  background-color: white;
 }
 
 img {
@@ -61,7 +62,7 @@ img {
 
 input {
   height: 40px;
-  width: 50px;
+  width: 10px;
   max-width: 500px;
   flex-shrink: 1;
   flex-grow: 1;
@@ -69,9 +70,11 @@ input {
   font-family: Arial;
   font-size: 15px;
   padding-left: 15px;
-  border-radius: 20px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
   outline: none;
   color: rgb(77, 77, 77);
+  box-shadow:inset 1px 2px 2px rgb(204, 204, 204);
 }
 
 input::placeholder {
@@ -79,10 +82,10 @@ input::placeholder {
   font-size: 15px;
 }
 
-button:first-of-type {
+header button:first-of-type {
   height: 44px;
-  width: 50px;
-  margin-left: -20px;
+  width: 67px;
+  margin-left: -1px;
   border-top-right-radius: 22px;
   border-bottom-right-radius: 22px;
   border: 1px solid gray;
@@ -109,4 +112,17 @@ button:first-of-type {
   border-radius: 50%;
   padding-top: 5px;
   background-color: rgb(240, 240, 240);
+}
+
+.icons:hover,
+header button:hover {
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+header button:active {
+  background-color: rgb(210, 210, 210);
 }

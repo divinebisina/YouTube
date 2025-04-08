@@ -1,0 +1,32 @@
+nav {
+  position: fixed;
+  top: 57px;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  background-color: white;
+  flex-direction: column;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+}
+
+nav div p {
+  font-size: 10px;
+  white-space: nowrap;
+  margin: 0;
+  margin-top: 10px;
+}
+
+nav div:hover {
+  background-color: rgb(214, 214, 214);
+  cursor: pointer;
+}
