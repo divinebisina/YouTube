@@ -1,8 +1,7 @@
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 8px;
-  row-gap: 22px;
+  column-gap: 18px;
+  row-gap: 35px;
 }
 
 .thumbnail-div {

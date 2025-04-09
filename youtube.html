@@ -18,18 +18,40 @@
 
       <div class="middle">
         <input type="text" placeholder="Search">
-        <button>
+        <button class="search-button help-tips">
           <img class="search-icon icons" src="images/icons/search.svg">
+          <div class="tooltips">
+            Search
+          </div>
         </button>
-        <button class="voice-button icons">
-          <img src="images/icons/voice-search-icon.svg">
+        <button class="voice-button help-tips">
+          <img class="icons" src="images/icons/voice-search-icon.svg">
+          <div class="tooltips">
+            Search with voice
+          </div>
         </button>
       </div>
 
       <div class="right">
-        <img class="icons" src="images/icons/upload.svg">
-        <img class="icons" src="images/icons/youtube-apps.svg">
-        <img class="icons" src="images/icons/notifications.svg">
+        <div class="help-tips">
+          <img class="icons" src="images/icons/upload.svg">
+          <div class="tooltips-right">
+            Create
+          </div>
+        </div>
+        <div class="help-tips">
+          <img class="icons" src="images/icons/youtube-apps.svg">
+          <div class="tooltips-right">
+            YouTube apps
+          </div>
+        </div>
+        <div class="help-tips">
+          <img class="icons" src="images/icons/notifications.svg">
+          <div class="notification-count">3</div>
+          <div class="tooltips-right">
+            Notifivations
+          </div>
+        </div>
         <img class="profile" src="images/channel-pictures/my-channel.jpeg">
       </div>
     </header>
@@ -79,9 +101,7 @@
     </nav>
 
     <main>
-      <section class="video-grid js-video-grid">
-        
-      </section>
+      <section class="video-grid js-video-grid"></section>
     </main>
 
     <script type="module" src="scripts/video.js"></script>
